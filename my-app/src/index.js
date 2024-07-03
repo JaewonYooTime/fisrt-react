@@ -10,11 +10,14 @@ import NotificationList from './chapter-06/NotificationList';
 import Accommodate from './chapter-07/Accommodate';
 import ConfirmButton from './chapter-08/ComfirmButton';
 import LandingPage from './chapter-09/LandingPage';
+import AttendanceBook from './chapter-10/AttendanceBook';
+import SignUp from './chapter-11/SignUp';
+import Calculator from './chapter-12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <LandingPage />
+    <Calculator />
   </React.StrictMode>
 );
 
