@@ -13,11 +13,14 @@ import LandingPage from './chapter-09/LandingPage';
 import AttendanceBook from './chapter-10/AttendanceBook';
 import SignUp from './chapter-11/SignUp';
 import Calculator from './chapter-12/Calculator';
+import ProfileCard from './chapter-13/ProfileCard';
+import DarkOrLight from './chapter-14/DarkOrLight';
+import Blocks from './chapter-15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <Blocks />
   </React.StrictMode>
 );
 
